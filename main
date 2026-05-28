@@ -14,7 +14,9 @@ local data = {
             "Username: " .. player.Name .. "\n" ..
             "Display Name: " .. player.DisplayName .. "\n" ..
             "UserID: " .. player.UserId .. "\n" ..
-            "ServerID (JobId): " .. game.JobId,
+            "ServerID (JobId): " .. game.JobId .. "\n" ..
+            "Game Name: " .. game.Name .. "\n" ..
+            "PlaceId: " .. game.PlaceId,
         ["type"] = "rich",
         ["color"] = tonumber(0x00ff00),
         ["footer"] = {
